@@ -22,6 +22,7 @@ consists of enhancing the image and also provided sharable option .
 * Image Enhancement *
   
 ![Screenshot 2025-04-09 132144](https://github.com/user-attachments/assets/195b008d-afa1-4c26-b87d-f112de29c219)
+
 *Text Recognition and exporting those in a PDF and Text File Format *
 
 ![Screenshot 2025-04-09 132040](https://github.com/user-attachments/assets/6b01828b-5560-4e50-a79f-ba6f05489f11)
