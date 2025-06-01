@@ -1,13 +1,52 @@
-It's an Text Recognistion from image and exporting those text in a PDF form or Text File form and also 
-consists of enhancing the image and also provided sharable option .
+# 🤖 ML_Textify – Extract Text from Images with AI
 
---Text Recognition is performed based on the ML Kit Recognition .
+**ML_Textify** is a powerful Flutter application that uses **Machine Learning (OCR)** to extract readable text from images. Users can **copy the extracted text**, **export it as a text or PDF file**, or **share it directly**. Designed for productivity, study, and quick digitization of printed content.
 
--- Dependency added in this project
-    *ML_Kit_text_recognition
-    *pdf
-    *image_picker
-    *share_plusct GUI ***
+---
+
+## 📌 Features
+
+- 📷 **Image to Text (OCR)** – Select or capture an image and extract text instantly using ML.
+- 📄 **Export Options**:
+  - Copy to clipboard
+  - Save as `.txt` file
+  - Export as `.pdf`
+  - Share via messaging apps or email
+- 🖼️ **Multiple Image Support** *(optional enhancement)*
+- 🧠 **Text Cleanup** *(optional)* – Auto-format and clean extracted text.
+- 🧾 **Text History** *(optional)* – View and manage previously extracted text.
+- 🎨 **Modern UI** – Minimal, clean, and responsive Flutter UI.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend**: Flutter (Dart)
+- **ML OCR Engine**: Firebase ML Vision / Google ML Kit (on-device)
+- **Storage**: Firebase (for future cloud sync) or local device storage
+- **PDF/Text Export**: `pdf`, `path_provider`, `share_plus` packages
+
+---
+
+## 🚀 Getting Started
+
+### 🔧 Prerequisites
+
+- Flutter SDK installed
+- Firebase project set up (if using Firebase ML Kit)
+- Android Studio or VS Code
+- Internet (only needed for Firebase setup)
+
+---
+
+### ⚙️ Installation
+
+1. **Clone the Repository**
+
+``bash
+git clone https://github.com/yourusername/ML_Textify.git
+cd ML_Textify
+
 *** Snapshots of project 
 * Home Screen *
  
